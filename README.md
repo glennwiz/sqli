@@ -3,12 +3,16 @@
 
 -----------------------------
 
-# textbox = box.value.ToString();
-# Select name from user where id = '%textbox%'
+##### textbox = box.value.ToString();
+##### Select id from user where name = '%textbox%'
 
-# textbox = "; DROP DATABASE Prodbase --"
-# Select name from user where id = '; DROP DATABASE Prodbase --'
+
+
+--
+##### textbox = "; DROP DATABASE Prodbase --"
+##### Select id from user where name = '; DROP DATABASE Prodbase --'
 
 -----------------------------
 [sqlmap](http://sqlmap.org/)
+
 [OwaspTop10](https://www.owasp.org/index.php/Main_Page)
