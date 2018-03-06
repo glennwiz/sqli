@@ -4,11 +4,13 @@
 # -----------------------------
 
 var textboxvalue = textbox.value.ToString();
+
 Select id from user where name = '%textboxvalue%';
 
 # -----------------------------
 
 var textboxvalue = "; DROP DATABASE Prodbase --";
+
 Select id from user where name = '; DROP DATABASE Prodbase --';
 
 -----------------------------
