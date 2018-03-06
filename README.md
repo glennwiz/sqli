@@ -1,16 +1,15 @@
 # sqli
 ![bobby](http://daddytypes.com/archive/xkcd_bobby_tables.jpg)
 
------------------------------
+# -----------------------------
 
-##### textbox = box.value.ToString();
-##### Select id from user where name = '%textbox%'
+var textboxvalue = textbox.value.ToString();
+Select id from user where name = '%textboxvalue%';
 
+# -----------------------------
 
-
---
-##### textbox = "; DROP DATABASE Prodbase --"
-##### Select id from user where name = '; DROP DATABASE Prodbase --'
+var textboxvalue = "; DROP DATABASE Prodbase --";
+Select id from user where name = '; DROP DATABASE Prodbase --';
 
 -----------------------------
 [sqlmap](http://sqlmap.org/)
