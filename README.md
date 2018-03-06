@@ -5,13 +5,14 @@
 
 var textboxvalue = textbox.value.ToString();
 
-Select id from user where name = '%textboxvalue%';
+var query = "Select id from user where name = '" + textboxvalue + "' AND name != 'Admin'";
 
 # -----------------------------
 
 var textboxvalue = "; DROP DATABASE Prodbase --";
 
-Select id from user where name = '; DROP DATABASE Prodbase --';
+# Query
+Select id from user where name = '; DROP DATABASE Prodbase --' AND name != 'Admin'";
 
 -----------------------------
 [sqlmap](http://sqlmap.org/)
