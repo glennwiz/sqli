@@ -31,11 +31,11 @@ SELECT id FROM users WHERE username=’test’ AND password='' OR 1=1
 
 
 # Best practices for preventing SQL injection attacks
-Use stored procedures 
-Use dynamic SQL only when you can't avoid it - vist du må bruk feks REPLACE på type singelquotes o.l som kan komme inn fra user.
-Use the principle of least access when granting database access 
-Use testing and monitoring to guard against SQL injection
-Protecting against SQL injection attacks
+Use stored procedures  
+Use dynamic SQL only when you can't avoid it - vist du må bruk feks REPLACE på type singelquotes o.l som kan komme inn fra user.  
+Use the principle of least access when granting database access  
+Use testing and monitoring to guard against SQL injection  
+Protecting against SQL injection attacks  
 
 https://statoil.service-now.com/kb_view.do?sysparm_article=KB0040762&sysparm_stack=&sysparm_view=
 
