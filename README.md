@@ -16,7 +16,7 @@ Select id from user where name = '; DROP DATABASE Prodbase --' AND name != 'Admi
 
 # -----------------------------
 
-uname = tbxusername.value;
+uname = tbxusername.value;  
 passwd = tbxpassword.value;
 
 sql = “SELECT id FROM users WHERE username=’” + uname + “’ AND password=’” + passwd + “’”
