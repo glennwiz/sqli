@@ -21,9 +21,11 @@ passwd = tbxpassword.value;
 
 sql = “SELECT id FROM users WHERE username=’” + uname + “’ AND password=’” + passwd + “’”
 
+uname = 'test'
 passwd = "' OR 1=1"
 
-SELECT id FROM users WHERE username=’username’ AND password='' OR 1=1’
+# Query
+SELECT id FROM users WHERE username=’test’ AND password='' OR 1=1
 
 # -----------------------------
 
